@@ -36,7 +36,7 @@ public class CountSubsetSumTo {
 
 	}
 
-	// Recursion | time = O(2^n) exponential | space = O(n) + O(n+k)
+	// Recursion | time = O(2^n) exponential | space = O(n)
 	public class SolutionRecursion {
 	    private static final int MOD = (int) Math.pow(10, 9) + 7;
 	       private static int recursion(int[] nums, int ind, int target) {
